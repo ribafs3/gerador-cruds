@@ -22,9 +22,9 @@ This Generator package provides various generators like CRUD, API, Controller, M
 composer create-project --prefer-dist laravel/laravel crud
 cd crud
 
-composer require appzcoder/crud-generator --dev
+composer require ribafs/crud-generator --dev
 
-php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
+php artisan vendor:publish --provider="Ribafs\CrudGenerator\CrudGeneratorServiceProvider"
 
 php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers \
  --form-helper=html
