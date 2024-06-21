@@ -19,6 +19,9 @@ This Generator package provides various generators like CRUD, API, Controller, M
 
 ## Installation
 ```
+composer create-project --prefer-dist laravel/laravel crud
+cd crud
+
 composer require appzcoder/crud-generator --dev
 
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
