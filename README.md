@@ -5,6 +5,11 @@
 [![Latest Stable Version](https://poser.pugx.org/appzcoder/crud-generator/v/stable.svg)](https://packagist.org/packages/appzcoder/crud-generator)
 [![License](https://poser.pugx.org/appzcoder/crud-generator/license.svg)](https://packagist.org/packages/appzcoder/crud-generator)
 
+Isto é um fork do
+https://github.com/sohelamin/crud-generator
+
+Mas usando o release 3.31, que usa Bootstrap
+
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
 ## Requirements
