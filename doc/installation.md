@@ -19,7 +19,7 @@ If you're using an older verson of Laravel (<5.5) then just manually add the pro
 public function register()
 {
     if ($this->app->environment() == 'local') {
-        $this->app->register('Appzcoder\CrudGenerator\CrudGeneratorServiceProvider');
+        $this->app->register('Ribafs\CrudGenerator\CrudGeneratorServiceProvider');
     }
 }
 ```
