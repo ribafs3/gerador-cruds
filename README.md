@@ -26,7 +26,7 @@ composer require appzcoder/crud-generator --dev
 
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
 
-Wzwmplo
+Exemplo
 php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 
 Add rota ao routes/web.php
