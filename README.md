@@ -26,7 +26,7 @@ composer require ribafs/crud-generator --dev
 
 php artisan vendor:publish --provider="Ribafs\CrudGenerator\CrudGeneratorServiceProvider"
 
-php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers \
+php artisan crud:generate Cadastros --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers \
  --form-helper=html
 
 Route::resource('/posts', 'App\Http\Controllers\PostsController');
