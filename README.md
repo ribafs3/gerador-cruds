@@ -13,7 +13,22 @@ This Generator package provides various generators like CRUD, API, Controller, M
 
 ## Installation
 ```
-composer require ribafs/crud-generator --dev
+composer require appzcoder/crud-generator --dev
+
+php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
+
+Wzwmplo
+php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers --form-helper=html
+
+Route::resource('/posts', 'App\Http\Controllers\PostsController');
+
+php artisan route:clear
+
+php artisan migrate
+
+php artisan serve
+
+http://127.0.0.1:8000/posts 
 ```
 
 ## Documentation
