@@ -29,6 +29,7 @@ php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServ
 Wzwmplo
 php artisan crud:generate Posts --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 
+Add rota ao routes/web.php
 Route::resource('/posts', 'App\Http\Controllers\PostsController');
 
 php artisan route:clear
