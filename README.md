@@ -32,6 +32,7 @@ php artisan crud:generate Cadastros --fields='title#string; body#text;' --contro
 Add ao routes/web.php
 Route::resource('/cadastros', 'App\Http\Controllers\CadastrosController');
 
+Executar
 php artisan route:clear
 
 php artisan migrate
