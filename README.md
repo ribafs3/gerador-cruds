@@ -29,7 +29,7 @@ php artisan vendor:publish --provider="Ribafs\CrudGenerator\CrudGeneratorService
 php artisan crud:generate Cadastros --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers \
  --form-helper=html
 
-Route::resource('/posts', 'App\Http\Controllers\PostsController');
+Route::resource('/cadastros', 'App\Http\Controllers\CadastrosController');
 
 php artisan route:clear
 
