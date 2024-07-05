@@ -10,6 +10,12 @@ https://github.com/sohelamin/crud-generator
 
 Mas usando o release 3.3.1, que usa Bootstrap
 
+## Customização do resources após o CRUD criado
+
+- Removi o menu lateral
+- Enxugiei ao meu modo
+- 
+- [resources-custom.zip](resources-custom.zip)
 
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
