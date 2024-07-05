@@ -45,6 +45,9 @@ php artisan migrate
 php artisan serve
 
 http://127.0.0.1:8000/cadastros
+
+Com combo na view
+php artisan crud:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
 ```
 
 ## Documentation
