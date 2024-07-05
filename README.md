@@ -14,8 +14,8 @@ Mas usando o release 3.3.1, que usa Bootstrap
 
 - Removi o menu lateral
 - Enxugiei ao meu modo
-- 
-- [resources-custom.zip](resources-custom.zip)
+
+- [resources-custom.zip]([resources-custom.zip)](https://github.com/ribafs2/gerador-cruds/raw/main/resources-custom.zip)
 
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
 
