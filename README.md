@@ -26,8 +26,7 @@ composer require ribafs/crud-generator --dev
 
 php artisan vendor:publish --provider="Ribafs\CrudGenerator\CrudGeneratorServiceProvider"
 
-php artisan crud:generate Cadastros --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers \
- --form-helper=html
+php artisan crud:generate Cadastros --fields='title#string; body#text;' --controller-namespace=App\\Http\\Controllers --form-helper=html
 
 Add ao routes/web.php
 Route::resource('/cadastros', 'App\Http\Controllers\CadastrosController');
