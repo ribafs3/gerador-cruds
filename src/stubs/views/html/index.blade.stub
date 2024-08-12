@@ -30,7 +30,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th>%%formHeadingHtml%%<th>Actions</th>
+                                        <th>ID</th>%%formHeadingHtml%%<th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
